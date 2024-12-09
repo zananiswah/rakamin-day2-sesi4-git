@@ -1,4 +1,4 @@
-import Animal from "./animal.js";
+import Animal from "./animal.js";   
 
 class Mammal extends Animal{
     constructor(name, food, canReproduce, energy, age){
