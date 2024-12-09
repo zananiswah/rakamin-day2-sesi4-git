@@ -5,10 +5,12 @@ class Animal{
         this.food = food;
         this.canReproduce = canReproduce;
         this.energy = energy;
-        this.#age = age;
+        this.age = age;
+
+        this.#age = 20;
     }
 
-    get getAge(){
+    getAge(){
         return this.#age
     }
 
